@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="oceanlab.css">
+    <!-- 폰트 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&family=Oswald:wght@500&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<!-- js 파일 연결 -->
+	<script type="text/javascript" src="oceanlab.js"></script>
+	<script src="https://kit.fontawesome.com/2fb38150f1.js" crossorigin="anonymous"></script>
+	<title>Ocean Lab</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+	<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+	<script defer src="https://pyscript.net/latest/pyscript.js"></script> 
+</head>
+<body>
+    <header>
+    </header>
+    <nav class="menu-bar">
+		<div class = "index">
+			<!-- 프로필 이미지 -->
+			<div class = "img">
+				<img id="porfile-img" src ="img/logo.png">
+			</div>
+			<br>
+			<!-- 목차 내용 -->
+			<a href="#target1"><h3 class="click">ABOUT</h3></a>
+			<a href="#target2"><h3 class="click">MEMBER</h3></a>
+			<a href="#target3"><h3 class="click">CONTACT</h3></a>
+			<a href="#target4"><h3 class="click">INFORMATION</h3></a>
+		</div>
+    </nav>
+
+	<section class="about">
+		<a name="target1"></a>
+        <!-- 이름 -->
+        <header class="name">
+			<p><span>Project_</span>&nbsp<span style="color: #2B3856;">OCEAN LAB</span></p>
+		</header>
+        <!-- 소개글 -->
+		<img class="main" src="img/main.png" alt="My Image" width="600px">
+        <article class="main-introduction">
+			<p class="title"><span><h3>불법외국어선 단속강화</h3></span>
+				<span style="color: #2B3856;"><h4>해경특수기동대원 원격 생체신호 모니터링 시스템</h4></span><br>
+				<p id="scroll" style="opacity: 1">Scroll down🙋‍♀️</p>
+		</article>
+    </section>
+	<hr class="featurette-divider">
+	<section class="experience">
+		<a name="target2"></a>
+		<!-- 1~3 텍스트 & 사진 -->
+		<p class="title"><span>List of</span>&nbsp<span style="color: #2B3856;">MEMBERS</span>&nbsp<span class="year">2021.xx.xx ~</span></p>
+		<div class="contents1">
+			<img style="width: 125px;" class="photo" src="img/1.png">
+			<a href="plot.html"><div id="data" class="click">Agent1</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+			<img style="width: 125px;" class="photo" src="img/2.jpg">
+			<a href="realtime.html"><div id="data" class="click">Agent2</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+			<img style="width: 125px;" class="photo" src="img/3.png">
+			<a href="#"><div id="data" class="click">Agent3</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+		</div>
+		<!-- 4~6 텍스트 & 사진 -->
+		<div class="contents2">
+			<img style="width: 125px;" class="photo" src="img/4.jpg">
+			<a href="#"><div id="data" class="click">Agent4</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+			<img style="width: 125px;" class="photo" src="img/5.png">
+			<a href="#"><div id="data" class="click">Agent5</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+			<img style="width: 125px;" class="photo" src="img/6.jpg">
+			<a href="#"><div id="data" class="click">Agent6</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+		</div>
+		<!-- 7~9 텍스트 & 사진 -->
+		<div class="contents3">
+			<img style="width: 125px;" class="photo" src="img/7.jpg">
+			<a href="#"><div id="data" class="click">Agent7</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+			<img style="width: 125px;" class="photo" src="img/8.jpg">
+			<a href="#"><div id="data" class="click">Agent8</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+			<img style="width: 125px;" class="photo" src="img/9.jpg">
+			<a href="#"><div id="data" class="click">Agent9</div><br><div id="pw">ID : <br>NAME : </div><div id="view">View details</div><br></a>
+		</div>
+	</section>
+	<br>
+	<hr class="featurette-divider">
+	<section class="education">
+		<a name="target3"></a>
+		<!-- 연락처 -->
+		<p class="major"><span>How to</span>&nbsp<span style="color: #2B3856;">Get</span>&nbsp<span class="comments">In Touch?</span></p>
+		<div class="contacts">
+			<br>
+			<p>🎂 2021.04.22 ~ 2023.xx.xx</p>
+			<p>📞 +(82)10-xxxx-xxxx</p>
+			<p>📧 xxxx@konkuk.ac.kr</p>
+			<br>
+			<p>http://www.konkuk.ac.kr/do/Index.do</p>
+			<p>https://cafe.naver.com/maritimesmartcloth</p>
+			<p>https://github.com/KU-Graduation-Project</p>
+			<p>http://117.16.136.124/?locale=ko#app_board-com_seagate_filebrowser</p>
+			<br>
+		</div>
+		<!-- SNS 픽토그램 -->
+		<footer class="sns-pictogram">
+			<a href='http://www.konkuk.ac.kr/do/Index.do'><i class="fa-brands fa-instagram fa-4x"></i></a>
+			<a href="https://cafe.naver.com/maritimesmartcloth"><i class="fa-solid fa-blog fa-4x"></i></a>
+			<a href="https://github.com/KU-Graduation-Project"><i class="fa-brands fa-github fa-4x"></i></a>
+			<br>
+		</footer>
+		<br>
+	</section>
+	<hr class="featurette-divider">
+	<section class="interests">
+		<a name="target4"></a>
+		<header>
+			<!-- 제목 -->
+			<p style="margin: 10px;" class="news-text"><span>THE LATEST</span>&nbsp<span style="color: #2B3856;">NEWS</span><p>
+			<br>
+		</header>
+		<article>
+			<!-- 이미지 -->
+			<div class="news-img">
+				<img class="photos" src="#">
+				<img class="photos" src="#">
+				<img class="photos" src="#">
+				<img class="photos" src="#">
+				<img class="photos" src="#">
+			</div>
+			<hr class="featurette-divider">
+			<!-- 코멘트 -->
+			<p class="comment">For more Information✨<br></p>
+			<p>Click Below ▼</p>
+			<div class="link">
+				<p>https://cafe.n/aver.com/maritimesmartcloth</p>
+			</div>
+			<div class="thumb">
+				<a href="https://cafe.naver.com/maritimesmartcloth">
+				<img src="img/url.png" width="800" height="450"></a>
+				<hr class="featurette-divider">
+			</div>
+		<footer>
+			<p id="foot">Ocean Lab</p>
+    		<p id="foot">&copy; 2023 by KCG_Ocean Lab</p>
+    		<p id="back"><a class="top" href="#" style="opacity: 1">Back to Top🙋</a></p>
+		</footer>
+		</article>
+	</section>		
+</body>
+</html>
